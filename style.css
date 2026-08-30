@@ -4,6 +4,7 @@
     background-size: cover;
     border: 3px solid orange;
 
+    height: auto;
     min-height: 65%;
     width: 80%;
 
@@ -68,12 +69,6 @@
     cursor: pointer;
 }
 
-@media (min-width: 500px) {
-    #principal {
-        height: 90%;
-    }
-}
-
 @media (min-width: 768px) {
     #principal {
         width: 40%;
@@ -85,5 +80,27 @@
     #principal {
         width: 30%;
         height: 70%;
+    }
+}
+
+@media(max-height: 500px) and (min-width: 768px) {
+    #principal {
+        width: 75%;
+        height: 30%;
+    }
+    #container-imagem {
+        width: 30%;
+    }
+    #login {
+        width: 50%;
+        height: 75%;
+    }
+
+    .label-login {
+        width: 20%;
+    }
+
+    #btn-entrar {
+        padding: 7px 15%;
     }
 }
