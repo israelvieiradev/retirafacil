@@ -4,9 +4,8 @@
     background-size: cover;
     border: 3px solid orange;
 
-    height: 65%;
+    min-height: 65%;
     width: 80%;
-
 
     display: flex;
     flex-direction: column;
@@ -56,7 +55,7 @@
 
 #btn-entrar {
     background-color: rgb(34, 73, 145);
-    padding: 3% 20%;
+    padding: 10px 20%;
     border-radius: 3px;
     font-weight: bold;
     color: white;
@@ -69,9 +68,16 @@
     cursor: pointer;
 }
 
+@media (min-width: 500px) {
+    #principal {
+        height: 90%;
+    }
+}
+
 @media (min-width: 768px) {
     #principal {
         width: 40%;
+        height: 55%;
     }
 }
 
