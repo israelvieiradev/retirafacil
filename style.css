@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
 }
 
 #container-imagem {
@@ -110,6 +110,5 @@
 
     #btn-entrar {
         padding: 2.5px 10%;
-        margin: 0;
     }
 }
