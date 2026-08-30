@@ -86,7 +86,7 @@
 @media(max-height: 320px) and (min-width: 768px) {
     #principal {
         width: 70%;
-        
+        height: 90%;
     }
     #container-imagem {
         margin-top: 65px;
@@ -94,7 +94,8 @@
     }
     #login {
         width: 40%;
-        height: 40%;
+        height: 35%;
+        font-size: 95%;
     }
 
 
@@ -108,6 +109,7 @@
     }
 
     #btn-entrar {
-        padding: 5px 15%;
+        padding: 2.5px 10%;
+        margin: 0;
     }
 }
