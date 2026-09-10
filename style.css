@@ -2,6 +2,7 @@
 #principal {
     background-color: white;
     border: 3px solid orange;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
 
     height: auto;
     min-height: 65%;
@@ -22,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
 }
 
 #container-imagem {
@@ -36,33 +37,53 @@
 .campo-form {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    width: 100%;
+    width: 90%;
 }
 
-.label-login {
+.label-geral {
     width: 25%;
 }
 
-.input-login {
+.input-geral {
     width: 75%;
     height: 30px;
 }
 
-.input-login:focus {
+.input-geral:focus {
     outline: 1px solid orange;
 }
 
-#btn-entrar {
+#divisao {
+    width: 75%;
+    position: relative;
+    display: flex;
+}
+
+#divisao .input-geral {
+    width: 100%;
+}
+
+.icon-eye {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-45%);
+
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#btn-form {
     background-color: rgb(34, 73, 145);
     padding: 10px 20%;
     border-radius: 3px;
     font-weight: bold;
     color: white;
-    margin-top: 10px;
 }
 
-#btn-entrar:hover {
+#btn-form:hover {
     background-color: rgb(31, 66, 137);
     color: orange;
     cursor: pointer;

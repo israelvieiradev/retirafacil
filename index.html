@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tela de login para um projeto escalável com a ideia de agendamento para retirada de produtos reunindo parcerias com e-commerces.">
+    <meta name="keywords" content="login, retirafacil, projeto, portifólio, e-commerce, produto, agendamento">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Retira Fácil | Login">
+    <meta property="og:description" content="Tela de Login do projeto retirafacil">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seunome.github.io">
 
     <link rel="icon" type="image/png" href="imagens/icone-retirafacil.png">
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="style.css">
 
+    <script src="https://unpkg.com/lucide@latest"></script>
     <title>Retira Fácil</title>
 </head>
 <body>
@@ -17,16 +26,25 @@
                 <img src="imagens/logo-retirafacil.png" alt="logo-retirafacil" id="imagem">
             </figure>
             <section class="campo-form">
-                <label for="usuario" class="label-login">Usuário: </label>
-                <input type="text" class="input-login" id="usuario" placeholder="usuário">
+                <label for="usuario" class="label-geral">Usuário:</label>
+                <input type="text" class="input-geral" id="usuario" name="usuario" placeholder="usuário" minlength="8" required>
             </section>
-
             <section class="campo-form">
-                <label for="senha" class="label-login">Senha: </label>
-                <input type="password" class="input-login" id="senha" placeholder="senha">
+                <label for="senha" class="label-geral">Senha:</label>
+                <div id="divisao">
+                    <input type="password" class="input-geral" id="senha" name="senha" placeholder="senha" minlength="8" required>
+                    <button type="button" class="icon-eye" id="id-icon-eye" aria-label="Mostrar senha">
+                        <i data-lucide="eye-closed"></i>
+                    </button>
+                </div>
             </section>
-            <button id="btn-entrar">Entrar</button>
+            <span>
+                <a href="esqueci-senha.html">Esqueci a senha</a>
+            </span>
+            <button id="btn-form" type="submit">Entrar</button>
         </form>
     </main>
+    <script src="lucide.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
