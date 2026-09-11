@@ -2,7 +2,6 @@ const senha = document.querySelector("#senha");
 const botaoOlho = document.querySelector("#id-icon-eye");
 
 botaoOlho.addEventListener("click", function () {
-
     if (senha.type === "password") {
         senha.type = "text";
 
