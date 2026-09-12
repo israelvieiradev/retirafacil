@@ -8,7 +8,7 @@
 ## Tela de Login
 
 - Após fazer o cadastro com a empresa o usuário pode fazer o login para ter acesso à plataforma
-- Caso esqueça a senha pode solicitar para trocar pelo e-mail cadastrado
+- Caso esqueça a senha pode solicitar para trocar usando e-mail cadastrado
 
 ## Ferramentas utilizadas
 
